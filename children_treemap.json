@@ -1,17 +1,19 @@
 {
-"name": "Patients",
 "children": [
 	{
 		"name":"3822046",
+		"value": 20,
 		"children": [
 		{
 			"name":"NonTBI",
+			"value": 19,
 			"children": [
 			{"name": "NonTBI", "value":19}
 			]
 		},
 		{
 			"name": "Physical",
+			"value": 1,
 			"children": [
 			{"name": "NonSkullInjury", "value": 1}
 			]
@@ -20,9 +22,11 @@
 	},
 	{
 		"name": "3822084",
+		"value": 1,
 		"children": [
 		{
 			"name":"Physical",
+			"value": 1,
 			"children": [
 			{"name": "NonSkullInjury", "value":1}
 			]
@@ -31,21 +35,25 @@
 	},
 	{
 		"name":"3822201",
+		"value": 11,
 		"children": [
 		{
 			"name":"NonTBI",
+			"value": 10,
 			"children": [
 			{"name": "NonTBI", "value":10}
 			]
 		},
 		{
 			"name":"Mental",
+			"value": 1,
 			"children":[
 			{"name":"Depression", "value":1}
 			]
 		},
 		{
 			"name": "Physical",
+			"value": 8,
 			"children": [
 			{"name": "NonSkullInjury", "value": 2},
 			{"name": "Headache", "value":5},
@@ -56,15 +64,18 @@
 	},
 	{
 		"name":"3822204",
+		"value": 5,
 		"children": [
 		{
 			"name":"NonTBI",
+			"value": 3,
 			"children": [
 			{"name": "NonTBI", "value":3}
 			]
 		},
 		{
 			"name": "Physical",
+			"value": 2,
 			"children": [
 			{"name": "NonSkullInjury", "value": 1},
 			{"name": "Headache", "value":1}
@@ -74,15 +85,18 @@
 	},
 	{
 		"name":"3822264",
+		"value": 10,
 		"children": [
 		{
 			"name":"NonTBI",
+			"value": 8,
 			"children": [
 			{"name": "NonTBI", "value":8}
 			]
 		},
 		{
 			"name": "Physical",
+			"value": 2,
 			"children": [
 			{"name": "NonSkullInjury", "value": 1},
 			{"name": "PCS", "value":1},
@@ -92,21 +106,25 @@
 	},
 	{
 		"name":"3822286",
+		"value": 32,
 		"children": [
 		{
 			"name":"NonTBI",
+			"value": 27,
 			"children": [
 			{"name": "NonTBI", "value":27}
 			]
 		},
 		{
 			"name":"Mental",
+			"value": 1,
 			"children": [
 			{"name":"Sleep", "value":1}
 			]
 		},
 		{
 			"name": "Physical",
+			"value": 4,
 			"children": [
 			{"name": "NonSkullInjury", "value": 1},
 			{"name": "Cognotive", "value":2},
@@ -117,15 +135,18 @@
 	},
 	{
 		"name":"3822432",
+		"value": 22,
 		"children": [
 		{
 			"name":"NonTBI",
+			"value": 21,
 			"children": [
 			{"name": "NonTBI", "value":21}
 			]
 		},
 		{
 			"name": "Physical",
+			"value": 1,
 			"children": [
 			{"name": "NonSkullInjury", "value": 1}
 			]
@@ -134,15 +155,18 @@
 	},
 	{
 		"name":"3822611",
+		"value": 324,
 		"children": [
 		{
 			"name":"NonTBI",
+			"value": 243,
 			"children": [
 			{"name": "NonTBI", "value":243}
 			]
 		},
 		{
 			"name":"Mental",
+			"value": 39,
 			"children": [
 			{"name":"Depression", "value":26},
 			{"name":"Sleep", "value":13}
@@ -150,6 +174,7 @@
 		},
 		{
 			"name": "Physical",
+			"value": 42,
 			"children": [
 			{"name": "NonSkullInjury", "value": 5},
 			{"name": "Headache", "value":22},
@@ -161,21 +186,25 @@
 	},
 	{
 		"name":"3822646",
+		"value": 30,
 		"children": [
 		{
 			"name":"NonTBI",
+			"value": 22,
 			"children": [
 			{"name": "NonTBI", "value":22}
 			]
 		},
 		{
 			"name":"Mental",
+			"value": 4,
 			"children": [
 			{"name":"Depression", "value":4},
 			]
 		},
 		{
 			"name": "Physical",
+			"value": 4,
 			"children": [
 			{"name": "Audiology", "value": 2},
 			{"name": "Headache", "value":2}
@@ -185,15 +214,18 @@
 	},
 	{
 		"name":"3822668",
+		"value": 23,
 		"children": [
 		{
 			"name":"NonTBI",
+			"value": 22,
 			"children": [
 			{"name": "NonTBI", "value":22}
 			]
 		},
 		{
 			"name": "Physical",
+			"value": 1,
 			"children": [
 			{"name": "NonSkullInjury", "value": 1}
 			]
@@ -202,15 +234,18 @@
 	},
 	{
 		"name":"3822662",
+		"value": 13,
 		"children": [
 		{
 			"name":"NonTBI",
+			"value": 11,
 			"children": [
 			{"name": "NonTBI", "value":11}
 			]
 		},
 		{
 			"name": "Physical",
+			"value": 2,
 			"children": [
 			{"name": "NonSkullInjury", "value": 2},
 			]
@@ -219,6 +254,7 @@
 	},
 	{
 		"name":"Total",
+		"value": 386,
 		"children": [
 		{
 			"name":"NonTBI",
@@ -228,6 +264,7 @@
 		},
 		{
 			"name":"Mental",
+			"value": 45,
 			"children": [
 			{"name":"Depression", "value":31},
 			{"name":"Sleep", "value":14},
@@ -235,6 +272,7 @@
 		},
 		{
 			"name": "Physical",
+			"value": 68,
 			"children": [
 			{"name": "Audiology", "value": 2},
 			{"name": "Cognotive", "value": 3},
@@ -246,5 +284,6 @@
 		}
 		]
 	}
-]
-}	
+],
+"name": "Patients"
+}
