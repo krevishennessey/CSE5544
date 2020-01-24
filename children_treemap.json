@@ -1,0 +1,250 @@
+{
+"name": "Patients"
+"children":[
+	{
+		"name":"3822046",
+		"children":[
+		{
+			"name":"NonTBI",
+			"children": [
+			{"name": "NonTBI", "value":19}
+			]
+		},
+		{
+			"name": "Physical",
+			"children": [
+			{"name": "NonSkullInjury", "value": 1}
+			]
+		}
+		]
+	},
+	{
+		"name": "3822084",
+		"children":[
+		{
+			"name":"Physical",
+			"children": [
+			{"name": "NonSkullInjury", "value":1}
+			]
+		}
+		]
+	},
+	{
+		"name":"3822201",
+		"children":[
+		{
+			"name":"NonTBI",
+			"children": [
+			{"name": "NonTBI", "value":10}
+			]
+		},
+		{
+			"name":"Mental"
+			"children":[
+			{"name":"Depression", "value":1}
+			]
+		},
+		{
+			"name": "Physical",
+			"children": [
+			{"name": "NonSkullInjury", "value": 2},
+			{"name": "Headache", "value":5},
+			{"name": "Vision", "value":1}
+			]
+		}
+		]
+	},
+	{
+		"name":"3822204",
+		"children":[
+		{
+			"name":"NonTBI",
+			"children": [
+			{"name": "NonTBI", "value":3}
+			]
+		},
+		{
+			"name": "Physical",
+			"children": [
+			{"name": "NonSkullInjury", "value": 1},
+			{"name": "Headache", "value":1}
+			]
+		}
+		]
+	},
+	{
+		"name":"3822264",
+		"children":[
+		{
+			"name":"NonTBI",
+			"children": [
+			{"name": "NonTBI", "value":8}
+			]
+		},
+		{
+			"name": "Physical",
+			"children": [
+			{"name": "NonSkullInjury", "value": 1},
+			{"name": "PCS", "value":1},
+			]
+		}
+		]
+	},
+	{
+		"name":"3822286",
+		"children":[
+		{
+			"name":"NonTBI",
+			"children": [
+			{"name": "NonTBI", "value":27}
+			]
+		},
+		{
+			"name":"Mental"
+			"children":[
+			{"name":"Sleep", "value":1}
+			]
+		},
+		{
+			"name": "Physical",
+			"children": [
+			{"name": "NonSkullInjury", "value": 1},
+			{"name": "Cognotive", "value":2},
+			{"name": "Vision", "value":1}
+			]
+		}
+		]
+	},
+	{
+		"name":"3822432",
+		"children":[
+		{
+			"name":"NonTBI",
+			"children": [
+			{"name": "NonTBI", "value":21}
+			]
+		},
+		{
+			"name": "Physical",
+			"children": [
+			{"name": "NonSkullInjury", "value": 1}
+			]
+		}
+		]
+	},
+	{
+		"name":"3822611",
+		"children":[
+		{
+			"name":"NonTBI",
+			"children": [
+			{"name": "NonTBI", "value":243}
+			]
+		},
+		{
+			"name":"Mental"
+			"children":[
+			{"name":"Depression", "value":26},
+			{"name":"Sleep", "value":13}
+			]
+		},
+		{
+			"name": "Physical",
+			"children": [
+			{"name": "NonSkullInjury", "value": 5},
+			{"name": "Headache", "value":22},
+			{"name": "Cognotive", "value":1},
+			{"name": "Vision", "value":14}
+			]
+		}
+		]
+	},
+	{
+		"name":"3822646",
+		"children":[
+		{
+			"name":"NonTBI",
+			"children": [
+			{"name": "NonTBI", "value":22}
+			]
+		},
+		{
+			"name":"Mental"
+			"children":[
+			{"name":"Depression", "value":4},
+			]
+		},
+		{
+			"name": "Physical",
+			"children": [
+			{"name": "Audiology", "value": 2},
+			{"name": "Headache", "value":2}
+			]
+		}
+		]
+	},
+	{
+		"name":"3822668",
+		"children":[
+		{
+			"name":"NonTBI",
+			"children": [
+			{"name": "NonTBI", "value":22}
+			]
+		},
+		{
+			"name": "Physical",
+			"children": [
+			{"name": "NonSkullInjury", "value": 1}
+			]
+		}
+		]
+	},
+	{
+		"name":"3822662",
+		"children":[
+		{
+			"name":"NonTBI",
+			"children": [
+			{"name": "NonTBI", "value":11}
+			]
+		},
+		{
+			"name": "Physical",
+			"children": [
+			{"name": "NonSkullInjury", "value": 2},
+			]
+		}
+		]
+	},
+	{
+		"name":"Total",
+		"children":[
+		{
+			"name":"NonTBI",
+			"children": [
+			{"name": "NonTBI", "value":386}
+			]
+		},
+		{
+			"name":"Mental"
+			"children":[
+			{"name":"Depression", "value":31},
+			{"name":"Sleep", "value":14},
+			]
+		},
+		{
+			"name": "Physical",
+			"children": [
+			{"name": "Audiology", "value": 2},
+			{"name": "Cognotive", "value": 3},
+			{"name": "Headache", "value": 30},
+			{"name": "NonSkullInjury", "value": 16},
+			{"name": "PCS", "value": 1},
+			{"name": "Vision", "value": 16},
+			]
+		}
+		]
+	}
+]
+}	
