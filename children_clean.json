@@ -1,0 +1,662 @@
+[
+  {
+    "id": 3822046,
+    "parent": "NonTBI",
+    "label": "NonTBI",
+    "value": 19
+  },
+  {
+    "id": 3822046,
+    "parent": "Mental",
+    "label": "Depression",
+    "value": 0
+  },
+  {
+    "id": 3822046,
+    "parent": "Mental",
+    "label": "Sleep",
+    "value": 0
+  },
+  {
+    "id": 3822046,
+    "parent": "Physical",
+    "label": "Audiology",
+    "value": 0
+  },
+  {
+    "id": 3822046,
+    "parent": "Physical",
+    "label": "Cognotive",
+    "value": 0
+  },
+  {
+    "id": 3822046,
+    "parent": "Physical",
+    "label": "Headache",
+    "value": 0
+  },
+  {
+    "id": 3822046,
+    "parent": "Physical",
+    "label": "NonSkullInjury",
+    "value": 1
+  },
+  {
+    "id": 3822046,
+    "parent": "Physical",
+    "label": "PCS",
+    "value": 0
+  },
+  {
+    "id": 3822046,
+    "parent": "Physical",
+    "label": "Vision",
+    "value": 0
+  },
+  {
+    "id": 3822046,
+    "parent": "Total",
+    "label": "",
+    "value": 20
+  },
+  {
+    "id": 3822084,
+    "parent": "NonTBI",
+    "label": "NonTBI",
+    "value": 0
+  },
+  {
+    "id": 3822084,
+    "parent": "Mental",
+    "label": "Depression",
+    "value": 0
+  },
+  {
+    "id": 3822084,
+    "parent": "Mental",
+    "label": "Sleep",
+    "value": 0
+  },
+  {
+    "id": 3822084,
+    "parent": "Physical",
+    "label": "Audiology",
+    "value": 0
+  },
+  {
+    "id": 3822084,
+    "parent": "Physical",
+    "label": "Cognotive",
+    "value": 0
+  },
+  {
+    "id": 3822084,
+    "parent": "Physical",
+    "label": "Headache",
+    "value": 0
+  },
+  {
+    "id": 3822084,
+    "parent": "Physical",
+    "label": "NonSkullInjury",
+    "value": 1
+  },
+  {
+    "id": 3822084,
+    "parent": "Physical",
+    "label": "PCS",
+    "value": 0
+  },
+  {
+    "id": 3822084,
+    "parent": "Physical",
+    "label": "Vision",
+    "value": 0
+  },
+  {
+    "id": 3822084,
+    "parent": "Total",
+    "label": "",
+    "value": 1
+  },
+  {
+    "id": 3822201,
+    "parent": "NonTBI",
+    "label": "NonTBI",
+    "value": 10
+  },
+  {
+    "id": 3822201,
+    "parent": "Mental",
+    "label": "Depression",
+    "value": 1
+  },
+  {
+    "id": 3822201,
+    "parent": "Mental",
+    "label": "Sleep",
+    "value": 0
+  },
+  {
+    "id": 3822201,
+    "parent": "Physical",
+    "label": "Audiology",
+    "value": 0
+  },
+  {
+    "id": 3822201,
+    "parent": "Physical",
+    "label": "Cognotive",
+    "value": 0
+  },
+  {
+    "id": 3822201,
+    "parent": "Physical",
+    "label": "Headache",
+    "value": 5
+  },
+  {
+    "id": 3822201,
+    "parent": "Physical",
+    "label": "NonSkullInjury",
+    "value": 2
+  },
+  {
+    "id": 3822201,
+    "parent": "Physical",
+    "label": "PCS",
+    "value": 0
+  },
+  {
+    "id": 3822201,
+    "parent": "Physical",
+    "label": "Vision",
+    "value": 1
+  },
+  {
+    "id": 3822201,
+    "parent": "Total",
+    "label": "",
+    "value": 19
+  },
+  {
+    "id": 3822204,
+    "parent": "NonTBI",
+    "label": "NonTBI",
+    "value": 3
+  },
+  {
+    "id": 3822204,
+    "parent": "Mental",
+    "label": "Depression",
+    "value": 0
+  },
+  {
+    "id": 3822204,
+    "parent": "Mental",
+    "label": "Sleep",
+    "value": 0
+  },
+  {
+    "id": 3822204,
+    "parent": "Physical",
+    "label": "Audiology",
+    "value": 0
+  },
+  {
+    "id": 3822204,
+    "parent": "Physical",
+    "label": "Cognotive",
+    "value": 0
+  },
+  {
+    "id": 3822204,
+    "parent": "Physical",
+    "label": "Headache",
+    "value": 1
+  },
+  {
+    "id": 3822204,
+    "parent": "Physical",
+    "label": "NonSkullInjury",
+    "value": 1
+  },
+  {
+    "id": 3822204,
+    "parent": "Physical",
+    "label": "PCS",
+    "value": 0
+  },
+  {
+    "id": 3822204,
+    "parent": "Physical",
+    "label": "Vision",
+    "value": 0
+  },
+  {
+    "id": 3822204,
+    "parent": "Total",
+    "label": "",
+    "value": 5
+  },
+  {
+    "id": 3822264,
+    "parent": "NonTBI",
+    "label": "NonTBI",
+    "value": 8
+  },
+  {
+    "id": 3822264,
+    "parent": "Mental",
+    "label": "Depression",
+    "value": 0
+  },
+  {
+    "id": 3822264,
+    "parent": "Mental",
+    "label": "Sleep",
+    "value": 0
+  },
+  {
+    "id": 3822264,
+    "parent": "Physical",
+    "label": "Audiology",
+    "value": 0
+  },
+  {
+    "id": 3822264,
+    "parent": "Physical",
+    "label": "Cognotive",
+    "value": 0
+  },
+  {
+    "id": 3822264,
+    "parent": "Physical",
+    "label": "Headache",
+    "value": 1
+  },
+  {
+    "id": 3822264,
+    "parent": "Physical",
+    "label": "NonSkullInjury",
+    "value": 1
+  },
+  {
+    "id": 3822264,
+    "parent": "Physical",
+    "label": "PCS",
+    "value": 0
+  },
+  {
+    "id": 3822264,
+    "parent": "Physical",
+    "label": "Vision",
+    "value": 0
+  },
+  {
+    "id": 3822264,
+    "parent": "Total",
+    "label": "",
+    "value": 10
+  },
+  {
+    "id": 3822286,
+    "parent": "NonTBI",
+    "label": "NonTBI",
+    "value": 27
+  },
+  {
+    "id": 3822286,
+    "parent": "Mental",
+    "label": "Depression",
+    "value": 0
+  },
+  {
+    "id": 3822286,
+    "parent": "Mental",
+    "label": "Sleep",
+    "value": 1
+  },
+  {
+    "id": 3822286,
+    "parent": "Physical",
+    "label": "Audiology",
+    "value": 0
+  },
+  {
+    "id": 3822286,
+    "parent": "Physical",
+    "label": "Cognotive",
+    "value": 2
+  },
+  {
+    "id": 3822286,
+    "parent": "Physical",
+    "label": "Headache",
+    "value": 0
+  },
+  {
+    "id": 3822286,
+    "parent": "Physical",
+    "label": "NonSkullInjury",
+    "value": 2
+  },
+  {
+    "id": 3822286,
+    "parent": "Physical",
+    "label": "PCS",
+    "value": 0
+  },
+  {
+    "id": 3822286,
+    "parent": "Physical",
+    "label": "Vision",
+    "value": 1
+  },
+  {
+    "id": 3822286,
+    "parent": "Total",
+    "label": "",
+    "value": 32
+  },
+  {
+    "id": 3822432,
+    "parent": "NonTBI",
+    "label": "NonTBI",
+    "value": 21
+  },
+  {
+    "id": 3822432,
+    "parent": "Mental",
+    "label": "Depression",
+    "value": 0
+  },
+  {
+    "id": 3822432,
+    "parent": "Mental",
+    "label": "Sleep",
+    "value": 0
+  },
+  {
+    "id": 3822432,
+    "parent": "Physical",
+    "label": "Audiology",
+    "value": 0
+  },
+  {
+    "id": 3822432,
+    "parent": "Physical",
+    "label": "Cognotive",
+    "value": 0
+  },
+  {
+    "id": 3822432,
+    "parent": "Physical",
+    "label": "Headache",
+    "value": 0
+  },
+  {
+    "id": 3822432,
+    "parent": "Physical",
+    "label": "NonSkullInjury",
+    "value": 1
+  },
+  {
+    "id": 3822432,
+    "parent": "Physical",
+    "label": "PCS",
+    "value": 0
+  },
+  {
+    "id": 3822432,
+    "parent": "Physical",
+    "label": "Vision",
+    "value": 0
+  },
+  {
+    "id": 3822432,
+    "parent": "Total",
+    "label": "",
+    "value": 22
+  },
+  {
+    "id": 3822611,
+    "parent": "NonTBI",
+    "label": "NonTBI",
+    "value": 243
+  },
+  {
+    "id": 3822611,
+    "parent": "Mental",
+    "label": "Depression",
+    "value": 26
+  },
+  {
+    "id": 3822611,
+    "parent": "Mental",
+    "label": "Sleep",
+    "value": 13
+  },
+  {
+    "id": 3822611,
+    "parent": "Physical",
+    "label": "Audiology",
+    "value": 0
+  },
+  {
+    "id": 3822611,
+    "parent": "Physical",
+    "label": "Cognotive",
+    "value": 1
+  },
+  {
+    "id": 3822611,
+    "parent": "Physical",
+    "label": "Headache",
+    "value": 22
+  },
+  {
+    "id": 3822611,
+    "parent": "Physical",
+    "label": "NonSkullInjury",
+    "value": 5
+  },
+  {
+    "id": 3822611,
+    "parent": "Physical",
+    "label": "PCS",
+    "value": 0
+  },
+  {
+    "id": 3822611,
+    "parent": "Physical",
+    "label": "Vision",
+    "value": 14
+  },
+  {
+    "id": 3822611,
+    "parent": "Total",
+    "label": "",
+    "value": 324
+  },
+  {
+    "id": 3822646,
+    "parent": "NonTBI",
+    "label": "NonTBI",
+    "value": 22
+  },
+  {
+    "id": 3822646,
+    "parent": "Mental",
+    "label": "Depression",
+    "value": 4
+  },
+  {
+    "id": 3822646,
+    "parent": "Mental",
+    "label": "Sleep",
+    "value": 0
+  },
+  {
+    "id": 3822646,
+    "parent": "Physical",
+    "label": "Audiology",
+    "value": 2
+  },
+  {
+    "id": 3822646,
+    "parent": "Physical",
+    "label": "Cognotive",
+    "value": 0
+  },
+  {
+    "id": 3822646,
+    "parent": "Physical",
+    "label": "Headache",
+    "value": 2
+  },
+  {
+    "id": 3822646,
+    "parent": "Physical",
+    "label": "NonSkullInjury",
+    "value": 0
+  },
+  {
+    "id": 3822646,
+    "parent": "Physical",
+    "label": "PCS",
+    "value": 0
+  },
+  {
+    "id": 3822646,
+    "parent": "Physical",
+    "label": "Vision",
+    "value": 0
+  },
+  {
+    "id": 3822646,
+    "parent": "Total",
+    "label": "",
+    "value": 28
+  },
+  {
+    "id": 3822668,
+    "parent": "NonTBI",
+    "label": "NonTBI",
+    "value": 22
+  },
+  {
+    "id": 3822668,
+    "parent": "Mental",
+    "label": "Depression",
+    "value": 0
+  },
+  {
+    "id": 3822668,
+    "parent": "Mental",
+    "label": "Sleep",
+    "value": 0
+  },
+  {
+    "id": 3822668,
+    "parent": "Physical",
+    "label": "Audiology",
+    "value": 0
+  },
+  {
+    "id": 3822668,
+    "parent": "Physical",
+    "label": "Cognotive",
+    "value": 0
+  },
+  {
+    "id": 3822668,
+    "parent": "Physical",
+    "label": "Headache",
+    "value": 0
+  },
+  {
+    "id": 3822668,
+    "parent": "Physical",
+    "label": "NonSkullInjury",
+    "value": 1
+  },
+  {
+    "id": 3822668,
+    "parent": "Physical",
+    "label": "PCS",
+    "value": 0
+  },
+  {
+    "id": 3822668,
+    "parent": "Physical",
+    "label": "Vision",
+    "value": 0
+  },
+  {
+    "id": 3822668,
+    "parent": "Total",
+    "label": "",
+    "value": 23
+  },
+  {
+    "id": 3822662,
+    "parent": "NonTBI",
+    "label": "NonTBI",
+    "value": 11
+  },
+  {
+    "id": 3822662,
+    "parent": "Mental",
+    "label": "Depression",
+    "value": 0
+  },
+  {
+    "id": 3822662,
+    "parent": "Mental",
+    "label": "Sleep",
+    "value": 0
+  },
+  {
+    "id": 3822662,
+    "parent": "Physical",
+    "label": "Audiology",
+    "value": 0
+  },
+  {
+    "id": 3822662,
+    "parent": "Physical",
+    "label": "Cognotive",
+    "value": 0
+  },
+  {
+    "id": 3822662,
+    "parent": "Physical",
+    "label": "Headache",
+    "value": 0
+  },
+  {
+    "id": 3822662,
+    "parent": "Physical",
+    "label": "NonSkullInjury",
+    "value": 1
+  },
+  {
+    "id": 3822662,
+    "parent": "Physical",
+    "label": "PCS",
+    "value": 0
+  },
+  {
+    "id": 3822662,
+    "parent": "Physical",
+    "label": "Vision",
+    "value": 0
+  },
+  {
+    "id": 3822662,
+    "parent": "Total",
+    "label": "",
+    "value": 12
+  }
+]
