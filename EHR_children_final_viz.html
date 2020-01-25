@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<head>
+  <h2>Patients who Experienced a Traumatic Brain Injury as a Child (Age 17 or Younger)</h2>
+</head>
+<style>
+
+form {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+svg {
+  font: 10px sans-serif;
+}
+
+</style>
+<svg width="900" height="560"></svg>
+<form>
+  <label><input type="radio" name="mode" value="fullView"> Full View </label>
+  <label><input type="radio" name="mode" value="sumByValue" checked> View by Number of Visits</label>
+</form>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+var fader = function(color) { return d3.interpolateRgb(color, "#fff")(0.1); },
+    color = d3.scaleOrdinal(d3.schemeCategory10.map(fader)),
+    format = d3.format(",d");
+
+var opacity = d3.scaleOrdinal()
+        .range([.5,1.5])
+
+var treemap = d3.treemap()
+    .tile(d3.treemapSquarify.ratio())
+    .size([width, height])
+    .round(true)
+    .paddingInner(1);
+
+d3.json("https://raw.githubusercontent.com/krevishennessey/CSE5544/master/children_treemap.json", function(data) {
+
+  //determine root variable for json file.
+  var root = d3.hierarchy(data)
+      .eachBefore(function(d) { d.data.id = (d.parent ? d.parent.data.id + "." : "") + d.data.name; })
+      .sum(sumByValue)
+      .sort(function(a, b) { return b.height - a.height || b.value - a.value; });
+
+  treemap(root);
+
+  //cell variable
+  var cell = svg.selectAll("g")
+    .data(root.leaves())
+    .enter().append("g")
+      .attr("transform", function(d) { return "translate(" + d.x0 + "," + d.y0 + ")"; });
+
+    //calculate fill and position of original rectangle
+  cell.append("rect")
+      .attr("id", function(d) { return d.parent.data.name; })
+      .attr("width", function(d) { return d.x1 - d.x0; })
+      .attr("height", function(d) { return d.y1 - d.y0; })
+      .attr("fill", function(d) { return color(d.parent.data.name); })
+      .style("opacity", function(d){ return opacity(d.data.name)});
+
+  cell.append("clipPath")
+      .attr("id", function(d) { return "clip-" + d.data.name; })
+    .append("use")
+      .attr("xlink:href", function(d) { return "#" + d.parent.data.name; });
+
+  cell.append("text")
+      .attr("clip-path", function(d) { return "url(#clip-" + d.parent.data.id + ")"; })
+    .selectAll("tspan")
+      .data(function(d) { return d.parent.parent.data.name.split(/(?=[A-Z][^A-Z])/g); })
+    .enter().append("tspan")
+      .attr("x", 4)
+      .attr("y", function(d, i) { return 13 + i * 14; })
+      .attr("font-size", "14px")
+      .text(function(d) { return d; });
+
+  cell.append("text")
+      .attr("clip-path", function(d) { return "url(#clip-" + d.parent.data.id + ")"; })
+    .selectAll("tspan")
+      .data(function(d) { return d.data.name.split(/(?=[A-Z][^A-Z])/g); })
+    .enter().append("tspan")
+      .attr("x", 4)
+      .attr("y", function(d, i) { return 35 + i * 10; })
+      .attr("font-size", "12px")
+      .text(function(d) { return d; });
+
+    cell.append("vals")
+        .attr("clip-path", function(d) { return "url(#clip-" + d.parent.data.id + ")"; })
+      .selectAll("rect")
+        .data(function(d) { return d.data.value ; })
+      .enter().append("vals")
+        .attr("x", 4)
+        .attr("y", function(d, i) { return 13 + i * 14; })
+        .attr("font-size", "14px")
+        .text(function(d) { return d.value; });
+
+
+  cell.append("title")
+      .text(function(d) { return d.data.id + "\n" + format(d.value); })
+
+  d3.selectAll("input")
+      .data([sumByValue, fullView], function(d) { return d ? d.name : this.value; })
+      .on("change", changed);
+
+  var timeout = d3.timeout(function() {
+    d3.select("input[value=\"fullView\"]")
+        .property("checked", true)
+        .dispatch("change");
+  }, 3000);
+
+  function changed(sum) {
+    timeout.stop();
+
+    treemap(root.sum(sum));
+
+    cell.transition()
+        .duration(1000)
+        .attr("transform", function(d) { return "translate(" + d.x0 + "," + d.y0 + ")"; })
+      .select("rect")
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .attr("height", function(d) { return d.y1 - d.y0; });
+  }
+});
+
+function fullView(d) {
+  return d.children ? 0 : 2;
+}
+
+function sumByValue(d) {
+  return d.value;
+}
+
+</script>
+<p1>The visualization above depicts the reason that a certain TBI patient attended a medical visit. The area of each rectangle corresponds to the number of visits for that reason. The names of patients are transformed values intended to make reading the visualization easier.
+<br> <br>There are two views present within this visualization: 
+<ul>
+  <li><b>View by Number of Visits</b>, which transforms the area of each rectangle so that the area corresponds to the total number of medical visits for an individual reason.</li>
+  <li><b>Full View</b>, which is only used to depict the text so it is easier to read. <b>Full View</b> does not depict any quantiative value.
+</li>
+</ul>
+ </p1>
