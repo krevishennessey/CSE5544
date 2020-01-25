@@ -16,4 +16,14 @@
 				{"name":"Depression", "value":1}
 				]
 			}
-}
+	{
+				"name": "Physical",
+				"value": 8,
+				"children": [
+				{"name": "NonSkullInjury", "value": 2},
+				{"name": "Headache", "value":5},
+				{"name": "Vision", "value":1}
+				]
+			}
+			]
+		}
